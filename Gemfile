@@ -29,7 +29,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg', '< 1.0.0'
 end
 gem 'bootstrap-sass'
 gem 'simple_form'
@@ -40,7 +40,7 @@ gem 'active_admin_flat_skin'
 gem 'jquery-rails'
 gem 'font-awesome-rails'
 gem 'slick_rails'
-gem "pg"
+gem 'therubyracer'
 
 
 # Reduces boot times through caching; required in config/boot.rb
